@@ -555,3 +555,123 @@ Thumbs.db
 
 # Ignore text files
 *.txt
+
+# ========== PYTHON ==========
+**/__pycache__/
+**/*.py[cod]
+**/*.so
+**/*.egg
+**/*.egg-info/
+**/.Python
+
+# Environments
+**/env/
+**/ENV/
+**/.env
+**/.venv/
+**/venv/
+
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Django
+**/db.sqlite3
+**/media/
+**/staticfiles/
+
+# Flask / FastAPI
+**/instance/
+
+# Packaging
+**/dist/
+**/build/
+
+# Testing & Coverage
+**/.tox/
+**/.coverage
+**/.cache
+**/htmlcov/
+**/coverage.xml
+**/*.cover
+**/*.py,cover
+
+# Typing
+**/.mypy_cache/
+**/.pyre/
+
+# ========== NODE.JS ==========
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/package-lock.json
+**/yarn.lock
+**/.npm/
+**/.nvm/
+
+# ========== REACT ==========
+**/build/
+**/public/static/
+**/.next/
+**/.parcel-cache/
+**/.turbo/
+**/coverage/
+**/.eslintcache
+
+# ========== COMMON FILES ==========
+# Logs
+**/*.log
+
+# IDEs
+**/.idea/
+**/.vscode/
+
+# Images
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.bmp
+**/*.tiff
+**/*.ico
+**/*.svg
+**/images/
+
+# Data Files
+**/*.csv
+**/*.tsv
+**/*.txt
+**/*.xls
+**/*.xlsx
+**/*.json
+**/*.xml
+**/*.yaml
+**/*.yml
+
+# Document Files
+**/*.pdf
+**/*.doc
+**/*.docx
+
+# Models / Binaries
+**/*.h5
+**/*.hdf5
+**/*.pkl
+**/*.joblib
+**/*.pt
+**/*.onnx
+**/*.pb
+**/*.tflite
+**/*.bin
+**/*.ckpt
+
+# ========== OS / SYSTEM ==========
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# ========== DOCKER ==========
+**/*.pid
+**/*.pidfile
+**/docker-compose.override.yml
+
